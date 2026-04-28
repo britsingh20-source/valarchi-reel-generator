@@ -1,0 +1,86 @@
+name: 🎬 Valarchi Daily Reel Generator
+
+# ─── Runs every day at 7:00 AM IST (1:30 AM UTC) ─────────────────────
+on:
+  schedule:
+    - cron: "30 1 * * *"       # 7:00 AM IST daily
+  workflow_dispatch:            # manual trigger from GitHub UI
+    inputs:
+      day:
+        description: "Force a specific day number (leave blank for auto)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Dry run — generate video but skip upload & posting"
+        type: boolean
+        default: false
+
+jobs:
+  generate-and-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      # ── 1. Checkout repo (includes state.json) ───────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python setup ─────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ── 3. System deps: FFmpeg + Tamil fonts ─────────────────────
+      - name: Install FFmpeg & Tamil fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-noto-extra fonts-noto
+          fc-cache -fv
+          # Confirm Tamil font path and export for the video generator
+          TAMIL_FONT=$(find /usr/share/fonts -name "NotoSansTamil-Regular.ttf" 2>/dev/null | head -1)
+          if [ -z "$TAMIL_FONT" ]; then
+            TAMIL_FONT=$(find /usr/share/fonts -name "NotoSansTamil*.ttf" 2>/dev/null | head -1)
+          fi
+          echo "Tamil font found: $TAMIL_FONT"
+          echo "VALARCHI_FONT_PATH=$TAMIL_FONT" >> $GITHUB_ENV
+
+      # ── 4. Python packages ───────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── 5. Generate video → Upload to R2 → Post to Instagram ─────
+      - name: Generate & Post Reel
+        env:
+          # Pexels B-roll (primary — better relevance)
+          PEXELS_API_KEY:          ${{ secrets.PEXELS_API_KEY }}
+          # Pixabay B-roll (fallback)
+          PIXABAY_API_KEY:         ${{ secrets.PIXABAY_API_KEY }}
+          # Cloudflare R2 (same names as tamilnewsbotlive)
+          CF_ACCOUNT_ID:           ${{ secrets.R2_ACCOUNT_ID }}
+          CF_R2_ACCESS_KEY_ID:     ${{ secrets.R2_ACCESS_KEY_ID }}
+          CF_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          CF_R2_BUCKET_NAME:       ${{ secrets.R2_BUCKET_NAME }}
+          CF_R2_PUBLIC_URL:        ${{ secrets.R2_PUBLIC_URL }}
+          # Instagram Graph API (same names as tamilnewsbotlive)
+          INSTAGRAM_USER_ID:       ${{ secrets.IG_BUSINESS_ID }}
+          IG_ACCESS_TOKEN:         ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            ARGS="--day ${{ github.event.inputs.day }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 daily_run.py $ARGS
+
+      # ── 6. Commit updated state.json back to repo ─────────────────
+      - name: Commit state.json
+        run: |
+          git config user.name  "Valarchi Bot"
+          git config user.email "bot@valarchi.auto"
+          git add state.jso

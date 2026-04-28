@@ -1,0 +1,20 @@
+﻿# Large media files
+backgrounds/
+output/
+temp/
+*.mp4
+*.wav
+*.mp3
+*.aac
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Batch scripts
+run_pexels.bat
+
+# State (tracked separately)
+# state.json  <- we WANT to track this

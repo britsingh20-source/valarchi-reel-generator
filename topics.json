@@ -1,0 +1,5290 @@
+[
+  {
+    "id": 1,
+    "topic": "rubber",
+    "title": "ரப்பர் எப்படி உருவாகிறது?",
+    "narration": "உங்களுக்கு தெரியுமா? ரப்பர் மரத்தை கத்தியால் கீறும்போது வெள்ளை நிற திரவம் வெளிவருகிறது. இது லேட்டக்ஸ் என்று அழைக்கப்படுகிறது. இதை சேகரித்து பதப்படுத்தி டயர்கள், அழிப்பான்கள், கையுறைகள் போன்ற பல பொருட்கள் செய்கிறோம். இந்த அற்புதமான மரம் நம் அன்றாட வாழ்க்கையை எளிதாக்குகிறது.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ரப்பர் மரத்தை",
+        "duration": 3,
+        "caption_en": "The Rubber Tree"
+      },
+      {
+        "caption": "கத்தியால் கீறும்போது",
+        "duration": 3,
+        "caption_en": "When Tapped with a Knife"
+      },
+      {
+        "caption": "வெள்ளை திரவம்",
+        "duration": 3,
+        "caption_en": "White Liquid Flows"
+      },
+      {
+        "caption": "வெளிவருகிறது",
+        "duration": 3,
+        "caption_en": "Called Latex"
+      },
+      {
+        "caption": "இது லேட்டக்ஸ்",
+        "duration": 3,
+        "caption_en": "It's Latex!"
+      },
+      {
+        "caption": "சேகரிக்கப்பட்டு",
+        "duration": 3,
+        "caption_en": "Collected & Processed"
+      },
+      {
+        "caption": "டயர்கள் ஆகின்றன",
+        "duration": 3,
+        "caption_en": "Used to Make Tires"
+      },
+      {
+        "caption": "அழிப்பான்களும்",
+        "duration": 3,
+        "caption_en": "Erasers Too!"
+      },
+      {
+        "caption": "இப்படித்தான்!",
+        "duration": 4,
+        "caption_en": "Amazing Nature!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #ரப்பர் #வளர்ச்சி #தமிழ்"
+  },
+  {
+    "id": 2,
+    "topic": "honey",
+    "title": "தேன் எப்படி உருவாகிறது?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு கிலோ தேன் உருவாக்க ஒரு தேனீ தனது வாழ்நாளில் பல லட்சம் மலர்களுக்கு பறக்க வேண்டும். தேனீக்கள் மலர்களிலிருந்து மகரந்தத்தை சேகரித்து தங்கள் தேன்கூட்டில் சேமிக்கின்றன. நீரை ஆவியாக்கி அது தேனாக மாறுகிறது. இயற்கையின் இந்த அதிசயம் ஆயிரக்கணக்கான ஆண்டுகளாக நடைபெறுகிறது.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஒரு கிலோ தேனுக்கு",
+        "duration": 3,
+        "caption_en": "For 1 Kg of Honey"
+      },
+      {
+        "caption": "ஒரு தேனீ",
+        "duration": 3,
+        "caption_en": "A Single Bee"
+      },
+      {
+        "caption": "லட்சம் மலர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Visits Millions of Flowers"
+      },
+      {
+        "caption": "பறக்க வேண்டும்",
+        "duration": 3,
+        "caption_en": "Its Entire Lifetime"
+      },
+      {
+        "caption": "மகரந்தம் சேகரித்து",
+        "duration": 3,
+        "caption_en": "Collects Nectar"
+      },
+      {
+        "caption": "தேன்கூட்டில் சேமிக்கும்",
+        "duration": 3,
+        "caption_en": "Stores in Hive"
+      },
+      {
+        "caption": "நீர் ஆவியாகி",
+        "duration": 3,
+        "caption_en": "Water Evaporates"
+      },
+      {
+        "caption": "தேன் உருவாகும்",
+        "duration": 3,
+        "caption_en": "Honey is Formed"
+      },
+      {
+        "caption": "இயற்கை அதிசயம்!",
+        "duration": 4,
+        "caption_en": "Nature's Wonder!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #தேன் #தேனீ #இயற்கை"
+  },
+  {
+    "id": 3,
+    "topic": "salt",
+    "title": "உப்பு எப்படி வருகிறது?",
+    "narration": "உங்களுக்கு தெரியுமா? நாம் தினமும் சாப்பிடும் உப்பு கடல்நீரிலிருந்து வருகிறது. கடல்நீரை பரந்த வயல்களில் தேக்கி வெயிலில் காயவிடுகிறார்கள். நீர் ஆவியாகி உப்பு மட்டும் மிஞ்சுகிறது. இந்தியாவில் குஜராத்தில் மட்டும் உலகின் மூன்றில் ஒரு பகுதி உப்பு உற்பத்தியாகிறது. உழைப்பாளிகளின் கடின உழைப்பால் இது சாத்தியமாகிறது.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நாம் சாப்பிடும் உப்பு",
+        "duration": 3,
+        "caption_en": "The Salt We Eat"
+      },
+      {
+        "caption": "கடல்நீரிலிருந்து",
+        "duration": 3,
+        "caption_en": "Comes from the Ocean"
+      },
+      {
+        "caption": "வயல்களில் தேக்கி",
+        "duration": 3,
+        "caption_en": "Seawater is Collected"
+      },
+      {
+        "caption": "வெயிலில் காயவிட்டால்",
+        "duration": 3,
+        "caption_en": "Sun Evaporates the Water"
+      },
+      {
+        "caption": "நீர் ஆவியாகும்",
+        "duration": 3,
+        "caption_en": "Only Salt Remains"
+      },
+      {
+        "caption": "உப்பு மிஞ்சும்",
+        "duration": 3,
+        "caption_en": "Gujarat, India"
+      },
+      {
+        "caption": "குஜராத்தில் மட்டும்",
+        "duration": 3,
+        "caption_en": "Produces 1/3 of World's Salt"
+      },
+      {
+        "caption": "உலகின் மூன்றில் ஒன்று",
+        "duration": 3,
+        "caption_en": "Hard Work of Farmers"
+      },
+      {
+        "caption": "உழைப்பின் பலன்!",
+        "duration": 4,
+        "caption_en": "Amazing Fact!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #உப்பு #கடல் #உழைப்பு"
+  },
+  {
+    "id": 4,
+    "topic": "silk",
+    "title": "பட்டு எப்படி உருவாகிறது?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு பட்டு புழு தன்னைத் தானே சுற்றிக்கொள்ளும் நூலின் நீளம் ஒரு கிலோமீட்டருக்கும் அதிகம். பட்டு புழுக்கள் மல்பெரி இலைகளை மட்டுமே சாப்பிடும். இவை நூலை சுரந்து கூட்டை உருவாக்கும். அந்த கூட்டை சூடான நீரில் வேகவைத்து நூலை எடுத்து பட்டு துணி நெய்கிறோம். கஞ்சிபுரம் பட்டு உலகப்புகழ் பெற்றது.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஒரு பட்டு புழு",
+        "duration": 3,
+        "caption_en": "Silk Comes from"
+      },
+      {
+        "caption": "சுற்றும் நூல்",
+        "duration": 3,
+        "caption_en": "A Tiny Worm"
+      },
+      {
+        "caption": "ஒரு கிலோமீட்டர்!",
+        "duration": 3,
+        "caption_en": "Silkworm Spins a Cocoon"
+      },
+      {
+        "caption": "மல்பெரி இலை மட்டும்",
+        "duration": 3,
+        "caption_en": "One Thread — 1.5 Km Long"
+      },
+      {
+        "caption": "கூடு உருவாக்கும்",
+        "duration": 3,
+        "caption_en": "Boiled to Get Silk"
+      },
+      {
+        "caption": "சூடான நீரில்",
+        "duration": 3,
+        "caption_en": "Soft & Strong"
+      },
+      {
+        "caption": "நூல் எடுத்து",
+        "duration": 3,
+        "caption_en": "Used for Centuries"
+      },
+      {
+        "caption": "பட்டு நெய்வார்கள்",
+        "duration": 3,
+        "caption_en": "India Leads Production"
+      },
+      {
+        "caption": "கஞ்சிபுரம் பட்டு!",
+        "duration": 4,
+        "caption_en": "Nature's Finest Fabric!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #பட்டு #கஞ்சிபுரம் #கலை"
+  },
+  {
+    "id": 5,
+    "topic": "coconut",
+    "title": "தென்னை மரத்தின் அதிசயம்",
+    "narration": "உங்களுக்கு தெரியுமா? தென்னை மரத்தை கல்பவிருட்சம் என்று அழைக்கிறோம். ஏனென்றால் இதன் ஒவ்வொரு பகுதியும் பயன்படுகிறது. தேங்காய் நீர் இயற்கையின் சிறந்த பானம். தேங்காய் எண்ணெய் சமையலுக்கும் மருத்துவத்திற்கும் பயன்படுகிறது. நார் கயிறாகவும், ஓலை வீட்டு கூரையாகவும், மட்டை எரிபொருளாகவும் பயன்படுகிறது. இது உண்மையிலேயே கற்பக விருட்சம்!",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தென்னை மரம்",
+        "duration": 3,
+        "caption_en": "The Coconut Tree"
+      },
+      {
+        "caption": "கல்பவிருட்சம்!",
+        "duration": 3,
+        "caption_en": "Called Tree of Life"
+      },
+      {
+        "caption": "ஒவ்வொரு பகுதியும்",
+        "duration": 3,
+        "caption_en": "Every Part is Useful"
+      },
+      {
+        "caption": "பயன்படுகிறது",
+        "duration": 3,
+        "caption_en": "Water Inside is Sterile"
+      },
+      {
+        "caption": "தேங்காய் நீர்",
+        "duration": 3,
+        "caption_en": "Used as IV Fluid in War"
+      },
+      {
+        "caption": "இயற்கை பானம்",
+        "duration": 3,
+        "caption_en": "Shell Becomes Charcoal"
+      },
+      {
+        "caption": "நார் கயிறாகும்",
+        "duration": 3,
+        "caption_en": "Leaves Make Roofs"
+      },
+      {
+        "caption": "ஓலை கூரையாகும்",
+        "duration": 3,
+        "caption_en": "Coconut Oil Uses"
+      },
+      {
+        "caption": "கற்பக விருட்சம்!",
+        "duration": 4,
+        "caption_en": "Amazing Palm Tree!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #தென்னை #இயற்கை #தமிழ்நாடு"
+  },
+  {
+    "id": 6,
+    "topic": "rice",
+    "title": "அரிசி வயல் முதல் தட்டு வரை",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு கிலோ அரிசி உற்பத்தி செய்ய சுமார் மூவாயிரம் லிட்டர் தண்ணீர் தேவைப்படுகிறது. உலகில் மூன்றில் இரண்டு பகுதி மக்கள் அரிசியை முக்கிய உணவாக சாப்பிடுகிறார்கள். நெல் முதல் அரிசியாக மாற பல நிலைகள் உள்ளன. விவசாயிகளின் கடின உழைப்பால் நம் தட்டில் சாதம் வருகிறது. அவர்களுக்கு நன்றி சொல்லுங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஒரு கிலோ அரிசிக்கு",
+        "duration": 3,
+        "caption_en": "Rice Feeds"
+      },
+      {
+        "caption": "மூவாயிரம் லிட்டர்",
+        "duration": 3,
+        "caption_en": "Half the World's Population"
+      },
+      {
+        "caption": "தண்ணீர் தேவை!",
+        "duration": 3,
+        "caption_en": "Takes 3000 Litres of Water"
+      },
+      {
+        "caption": "உலக மக்களில்",
+        "duration": 3,
+        "caption_en": "To Grow 1 Kg of Rice"
+      },
+      {
+        "caption": "மூன்றில் இரண்டு பேர்",
+        "duration": 3,
+        "caption_en": "Over 40,000 Varieties"
+      },
+      {
+        "caption": "அரிசி சாப்பிடுவர்",
+        "duration": 3,
+        "caption_en": "Exist Worldwide"
+      },
+      {
+        "caption": "விவசாயியின் உழைப்பால்",
+        "duration": 3,
+        "caption_en": "Rice Paddies Produce"
+      },
+      {
+        "caption": "நம் தட்டில்",
+        "duration": 3,
+        "caption_en": "Methane Gas Too"
+      },
+      {
+        "caption": "சாதம் வருகிறது!",
+        "duration": 4,
+        "caption_en": "World's Most Eaten Food!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #அரிசி #விவசாயம் #உழைப்பு"
+  },
+  {
+    "id": 7,
+    "topic": "glass",
+    "title": "கண்ணாடி எப்படி செய்கிறார்கள்?",
+    "narration": "உங்களுக்கு தெரியுமா? கண்ணாடி மணல்லிருந்து செய்யப்படுகிறது. சிலிக்கா மணலை மிகவும் உயர்ந்த வெப்பத்தில் உருக்கினால் கண்ணாடி உருவாகிறது. ஆயிரம் டிகிரி சென்டிகிரேட்டுக்கும் அதிகமான வெப்பம் தேவைப்படுகிறது. உருகிய மணல் ஆறி கண்ணாடியாக உறைகிறது. நம் வீட்டு ஜன்னல்கள் முதல் மொபைல் திரை வரை எல்லாம் மணல்லிருந்துதான் வருகிறது.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கண்ணாடி மணலிலிருந்து",
+        "duration": 3,
+        "caption_en": "Glass is Made from"
+      },
+      {
+        "caption": "செய்யப்படுகிறது",
+        "duration": 3,
+        "caption_en": "Plain Sand!"
+      },
+      {
+        "caption": "சிலிக்கா மணலை",
+        "duration": 3,
+        "caption_en": "Sand is Melted at 1700°C"
+      },
+      {
+        "caption": "ஆயிரம் டிகிரியில்",
+        "duration": 3,
+        "caption_en": "Pure Liquid Glass Forms"
+      },
+      {
+        "caption": "உருக்கும்போது",
+        "duration": 3,
+        "caption_en": "Shaped While Hot"
+      },
+      {
+        "caption": "கண்ணாடி உருவாகும்",
+        "duration": 3,
+        "caption_en": "Cools into Glass"
+      },
+      {
+        "caption": "உங்கள் மொபைல் திரை",
+        "duration": 3,
+        "caption_en": "Glass is 100% Recyclable"
+      },
+      {
+        "caption": "ஜன்னல் கண்ணாடி",
+        "duration": 3,
+        "caption_en": "Lightning Melts Sand Too"
+      },
+      {
+        "caption": "எல்லாம் மணல்தான்!",
+        "duration": 4,
+        "caption_en": "Making Natural Glass!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #கண்ணாடி #அறிவியல் #வியப்பு"
+  },
+  {
+    "id": 8,
+    "topic": "coffee",
+    "title": "காபி எப்படி வருகிறது?",
+    "narration": "உங்களுக்கு தெரியுமா? காபி ஒரு பழத்திலிருந்து வருகிறது. காபி செடியில் சிவந்த பழங்கள் காய்க்கும். அந்த பழத்தினுள் இரண்டு விதைகள் இருக்கும். அவை காபி கொட்டைகள். இவற்றை வறுத்து, அரைத்து, சூடான நீர் விட்டால் நாம் குடிக்கும் காபி கிடைக்கிறது. உலகின் இரண்டாவது அதிகமாக வர்த்தகம் ஆகும் பொருள் காபிதான்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "காபி ஒரு பழம்!",
+        "duration": 3,
+        "caption_en": "Coffee is the"
+      },
+      {
+        "caption": "சிவந்த பழத்தினுள்",
+        "duration": 3,
+        "caption_en": "World's 2nd Traded Commodity"
+      },
+      {
+        "caption": "இரண்டு விதைகள்",
+        "duration": 3,
+        "caption_en": "After Oil!"
+      },
+      {
+        "caption": "காபி கொட்டை",
+        "duration": 3,
+        "caption_en": "Coffee Beans are Seeds"
+      },
+      {
+        "caption": "வறுத்து அரைத்து",
+        "duration": 3,
+        "caption_en": "Of a Red Fruit"
+      },
+      {
+        "caption": "சூடான நீர் விட்டால்",
+        "duration": 3,
+        "caption_en": "It Takes 3-4 Years"
+      },
+      {
+        "caption": "உங்கள் காபி தயார்!",
+        "duration": 3,
+        "caption_en": "For a Tree to Fruit"
+      },
+      {
+        "caption": "உலகில் இரண்டாவது",
+        "duration": 3,
+        "caption_en": "Wakes Up the World"
+      },
+      {
+        "caption": "வர்த்தக பொருள்!",
+        "duration": 4,
+        "caption_en": "Every Single Day!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #காபி #இயற்கை #காலை"
+  },
+  {
+    "id": 9,
+    "topic": "ocean",
+    "title": "கடல் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? பூமியின் மொத்த பரப்பில் 71 சதவீதம் கடல்தான். ஆனால் நாம் இதுவரை கடலின் 5 சதவீதத்தை மட்டுமே ஆராய்ந்திருக்கிறோம். கடலின் ஆழமான இடம் மரியானா குழி. அதன் ஆழம் 11 கிலோமீட்டர். எவரெஸ்ட் சிகரத்தை அதில் வைத்தாலும் கடலுக்கு அடியில்தான் இருக்கும். கடலில் இன்னும் கண்டுபிடிக்கப்படாத உயிரினங்கள் உள்ளன.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பூமியில் 71%",
+        "duration": 3,
+        "caption_en": "71% of Earth"
+      },
+      {
+        "caption": "கடல்தான்!",
+        "duration": 3,
+        "caption_en": "Is Ocean!"
+      },
+      {
+        "caption": "ஆனால் நாம் பார்த்தது",
+        "duration": 3,
+        "caption_en": "But We've Explored"
+      },
+      {
+        "caption": "5% மட்டுமே",
+        "duration": 3,
+        "caption_en": "Only 5% of It"
+      },
+      {
+        "caption": "மரியானா குழி",
+        "duration": 3,
+        "caption_en": "Mariana Trench"
+      },
+      {
+        "caption": "11 கிலோமீட்டர் ஆழம்",
+        "duration": 3,
+        "caption_en": "Is 11 Km Deep"
+      },
+      {
+        "caption": "எவரெஸ்ட் மூழ்கும்!",
+        "duration": 3,
+        "caption_en": "Mt. Everest Would Sink!"
+      },
+      {
+        "caption": "இன்னும் கண்டுபிடிக்காத",
+        "duration": 3,
+        "caption_en": "Unknown Life Forms"
+      },
+      {
+        "caption": "உயிரினங்கள் உள்ளன!",
+        "duration": 4,
+        "caption_en": "Still Undiscovered!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #கடல் #இயற்கை #அறிவியல்"
+  },
+  {
+    "id": 10,
+    "topic": "sleep",
+    "title": "தூக்கம் ஏன் முக்கியம்?",
+    "narration": "உங்களுக்கு தெரியுமா? தூக்கத்தின்போது நம் மூளை அந்த நாளில் கற்ற தகவல்களை ஒழுங்கமைக்கிறது. குழந்தைகளுக்கு 10 முதல் 12 மணி நேர தூக்கம் தேவை. பெரியவர்களுக்கு 7 முதல் 8 மணி நேரம் தேவை. தூக்கமின்மை நோயெதிர்ப்பு சக்தியை குறைக்கும். நல்ல தூக்கம் நோய்களிலிருந்து பாதுகாக்கும். இன்று சரியாக தூங்குங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தூக்கத்தின்போது",
+        "duration": 3,
+        "caption_en": "During Sleep"
+      },
+      {
+        "caption": "மூளை வேலை செய்யும்",
+        "duration": 3,
+        "caption_en": "Your Brain Organizes Info"
+      },
+      {
+        "caption": "குழந்தைகளுக்கு",
+        "duration": 3,
+        "caption_en": "Kids Need"
+      },
+      {
+        "caption": "12 மணி நேரம்",
+        "duration": 3,
+        "caption_en": "10-12 Hours of Sleep"
+      },
+      {
+        "caption": "பெரியவர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Adults Need"
+      },
+      {
+        "caption": "8 மணி நேரம்",
+        "duration": 3,
+        "caption_en": "7-8 Hours"
+      },
+      {
+        "caption": "தூக்கமின்மை",
+        "duration": 3,
+        "caption_en": "Lack of Sleep"
+      },
+      {
+        "caption": "நோய் வரும்!",
+        "duration": 3,
+        "caption_en": "Weakens Immunity"
+      },
+      {
+        "caption": "சரியாக தூங்குங்கள்!",
+        "duration": 4,
+        "caption_en": "Sleep Well Tonight!"
+      }
+    ],
+    "hashtags": "#தெரியுமா #தூக்கம் #ஆரோக்கியம் #உடல்நலம்"
+  },
+  {
+    "id": 11,
+    "topic": "spider_web",
+    "title": "சிலந்தி வலை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சிலந்தி வலை எஃகை விட வலிமையானது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சிலந்தி வலை",
+        "duration": 3,
+        "caption_en": "Spider Silk"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Stronger Than Steel"
+      },
+      {
+        "caption": "சிலந்தி வலை எஃக",
+        "duration": 3,
+        "caption_en": "5x Tougher"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Than Kevlar"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Stretches Without Breaking"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "One Strand"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Can Span Metres"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Nature's Engineering"
+      }
+    ],
+    "hashtags": "#தெரியுமா #spider_web #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 12,
+    "topic": "banana",
+    "title": "வாழைப்பழம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வாழைப்பழத்தில் இயற்கை கதிரியக்கம் இருக்கிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வாழைப்பழம்",
+        "duration": 3,
+        "caption_en": "Bananas are"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Slightly Radioactive"
+      },
+      {
+        "caption": "வாழைப்பழத்தில் ",
+        "duration": 3,
+        "caption_en": "They Contain K-40"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "A Natural Isotope"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "But It's Safe!"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Bananas Float"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "In Water"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Curved Shape Helps"
+      }
+    ],
+    "hashtags": "#தெரியுமா #banana #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 13,
+    "topic": "lightning",
+    "title": "மின்னல் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மின்னல் சூரியனை விட 5 மடங்கு சூடானது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மின்னல்",
+        "duration": 3,
+        "caption_en": "Lightning Strikes"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Earth 100 Times"
+      },
+      {
+        "caption": "மின்னல் சூரியனை",
+        "duration": 3,
+        "caption_en": "Every Second!"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Temperature is"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "30,000 Kelvin"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "5x Hotter Than the Sun"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Lasts Only"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "0.2 Seconds"
+      }
+    ],
+    "hashtags": "#தெரியுமா #lightning #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 14,
+    "topic": "fingerprint",
+    "title": "கைரேகை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உலகில் யாரும் ஒரே கைரேகை கொண்டிருப்பதில்லை! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கைரேகை",
+        "duration": 3,
+        "caption_en": "No Two Fingerprints"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Are Identical"
+      },
+      {
+        "caption": "உலகில் யாரும் ஒ",
+        "duration": 3,
+        "caption_en": "Not Even Twins!"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fingerprints Form"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "In the Womb"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "By Week 10"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Used for ID"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "For 100+ Years"
+      }
+    ],
+    "hashtags": "#தெரியுமா #fingerprint #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 15,
+    "topic": "heart",
+    "title": "இதயம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உங்கள் இதயம் ஒரு நாளில் 1 லட்சம் முறை துடிக்கிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "இதயம்",
+        "duration": 3,
+        "caption_en": "Your Heart Beats"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "100,000 Times a Day"
+      },
+      {
+        "caption": "உங்கள் இதயம் ஒர",
+        "duration": 3,
+        "caption_en": "Every Single Day"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "That's 2.5 Billion"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Beats in a Lifetime"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Heart Pumps"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "5 Litres of Blood"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Every Minute"
+      }
+    ],
+    "hashtags": "#தெரியுமா #heart #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 16,
+    "topic": "brain",
+    "title": "மூளை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மூளை 60% கொழுப்பால் ஆனது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மூளை",
+        "duration": 3,
+        "caption_en": "The Human Brain"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Uses 20% of Body's Energy"
+      },
+      {
+        "caption": "மூளை 60% கொழுப்",
+        "duration": 3,
+        "caption_en": "Has 86 Billion Neurons"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Each Connected"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "To 10,000 Others"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Brain Generates"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "12-25 Watts of Power"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Enough to Light a Bulb"
+      }
+    ],
+    "hashtags": "#தெரியுமா #brain #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 17,
+    "topic": "water",
+    "title": "தண்ணீர் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உலகில் 97% தண்ணீர் கடல்நீர், குடிக்க முடியாது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தண்ணீர்",
+        "duration": 3,
+        "caption_en": "Water Exists"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "In 3 States"
+      },
+      {
+        "caption": "உலகில் 97% தண்ண",
+        "duration": 3,
+        "caption_en": "Solid, Liquid, Gas"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Water Has Memory"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "It Expands When Frozen"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Most Life on Earth"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Needs Water"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "97% is Salty Ocean"
+      }
+    ],
+    "hashtags": "#தெரியுமா #water #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 18,
+    "topic": "sun",
+    "title": "சூரியன் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சூரிய ஒளி பூமிக்கு வர 8 நிமிடம் ஆகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சூரியன்",
+        "duration": 3,
+        "caption_en": "The Sun"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Is 4.6 Billion Years Old"
+      },
+      {
+        "caption": "சூரிய ஒளி பூமிக",
+        "duration": 3,
+        "caption_en": "Light Takes 8 Minutes"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "To Reach Earth"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "The Sun Loses"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "4 Million Tonnes"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Of Mass Per Second"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "It Will Shine"
+      }
+    ],
+    "hashtags": "#தெரியுமா #sun #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 19,
+    "topic": "moon",
+    "title": "சந்திரன் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சந்திரன் ஒவ்வொரு ஆண்டும் பூமியிலிருந்து 3.8 செ.மீ. விலகுகிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சந்திரன்",
+        "duration": 3,
+        "caption_en": "The Moon"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Is Moving Away"
+      },
+      {
+        "caption": "சந்திரன் ஒவ்வொர",
+        "duration": 3,
+        "caption_en": "From Earth"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "By 3.8 cm Per Year"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Moon Controls Tides"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "It Slows Earth's Rotation"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Once Moon Was"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Much Closer"
+      }
+    ],
+    "hashtags": "#தெரியுமா #moon #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 20,
+    "topic": "diamond",
+    "title": "வைரம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வைரம் கரியிலிருந்துதான் உருவாகிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வைரம்",
+        "duration": 3,
+        "caption_en": "Diamonds Are"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Pure Carbon"
+      },
+      {
+        "caption": "வைரம் கரியிலிரு",
+        "duration": 3,
+        "caption_en": "Formed Deep Underground"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Under Extreme Pressure"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Takes Billions of Years"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Hardest Natural Material"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "On Earth"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Diamonds Are Forever"
+      }
+    ],
+    "hashtags": "#தெரியுமா #diamond #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 21,
+    "topic": "earthquake",
+    "title": "நிலநடுக்கம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒவ்வொரு நாளும் உலகில் 55 நிலநடுக்கங்கள் வருகின்றன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நிலநடுக்கம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒவ்வொரு நாளும் ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #earthquake #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 22,
+    "topic": "oxygen",
+    "title": "ஆக்சிஜன் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மரங்கள் நம் ஆக்சிஜனின் முக்கிய ஆதாரம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஆக்சிஜன்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மரங்கள் நம் ஆக்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #oxygen #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 23,
+    "topic": "milk",
+    "title": "பால் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? பசும்பாலில் 87% தண்ணீர் உள்ளது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பால்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "பசும்பாலில் 87%",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #milk #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 24,
+    "topic": "chocolate",
+    "title": "சாக்லெட் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சாக்லெட் உருவாக்க ஒரு பவுண்டுக்கு 400 கோகோ பழங்கள் தேவை! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சாக்லெட்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "சாக்லெட் உருவாக",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #chocolate #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 25,
+    "topic": "sand",
+    "title": "மணல் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உலகில் நட்சத்திரங்களை விட கடற்கரை மணல் அதிகம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மணல்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "உலகில் நட்சத்தி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #sand #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 26,
+    "topic": "ant",
+    "title": "எறும்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? எறும்பு தன் எடையை விட 50 மடங்கு அதிகம் தூக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "எறும்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "எறும்பு தன் எடை",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #ant #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 27,
+    "topic": "butterfly",
+    "title": "வண்ணத்துப்பூச்சி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வண்ணத்துப்பூச்சி காலால் சுவையை உணரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வண்ணத்துப்பூச்சி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "வண்ணத்துப்பூச்ச",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #butterfly #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 28,
+    "topic": "elephant",
+    "title": "யானை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? யானை ஒரே ஒரு விலங்கு குதிக்க முடியாதது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "யானை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "யானை ஒரே ஒரு வி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #elephant #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 29,
+    "topic": "tongue",
+    "title": "நாக்கு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நமது நாக்கு ஒரு நாளில் ஒரு லிட்டர் உமிழ்நீர் சுரக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நாக்கு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நமது நாக்கு ஒரு",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tongue #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 30,
+    "topic": "bone",
+    "title": "எலும்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? பிறக்கும்போது 300 எலும்புகள், வளர்ந்தால் 206! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "எலும்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "பிறக்கும்போது 3",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #bone #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 31,
+    "topic": "eye",
+    "title": "கண் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மனித கண் ஒரு கோடி வண்ணங்களை வேறுபடுத்தி காணும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கண்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மனித கண் ஒரு கோ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #eye #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 32,
+    "topic": "nose",
+    "title": "மூக்கு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மூக்கு 1 டிரில்லியன் வாசனைகளை கண்டறியும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மூக்கு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மூக்கு 1 டிரில்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #nose #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 33,
+    "topic": "hair",
+    "title": "முடி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நம் முடி ஒரு மாதத்தில் 1 செ.மீ. வளரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "முடி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நம் முடி ஒரு மா",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #hair #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 34,
+    "topic": "nail",
+    "title": "நகம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நகம் முடியை விட 4 மடங்கு வேகமாக வளரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நகம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நகம் முடியை விட",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #nail #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 35,
+    "topic": "blood",
+    "title": "ரத்தம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மனித உடலில் 5 லிட்டர் ரத்தம் உள்ளது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ரத்தம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மனித உடலில் 5 ல",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #blood #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 36,
+    "topic": "lungs",
+    "title": "நுரையீரல் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நுரையீரலை விரித்தால் டென்னிஸ் கோர்ட் அளவு இருக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நுரையீரல்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நுரையீரலை விரித",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #lungs #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 37,
+    "topic": "tree",
+    "title": "மரம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு மரம் ஒரு ஆண்டில் 100 கிலோ கார்பன் டை ஆக்சைடை உறிஞ்சும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மரம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு மரம் ஒரு ஆண",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tree #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 38,
+    "topic": "bee",
+    "title": "தேனீ பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? தேனீ பறக்கும் வேகம் மணிக்கு 25 கிலோமீட்டர்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தேனீ",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "தேனீ பறக்கும் வ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #bee #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 39,
+    "topic": "fish",
+    "title": "மீன் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மீன்களுக்கு தூக்கம் வருகிறது, ஆனால் கண்ணை மூட முடியாது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மீன்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மீன்களுக்கு தூக",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #fish #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 40,
+    "topic": "bird",
+    "title": "பறவை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஹமிங்பர்ட் பறவை ஒரு நிமிடத்தில் 1200 முறை இறக்கை அடிக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பறவை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஹமிங்பர்ட் பறவை",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #bird #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 41,
+    "topic": "plastic",
+    "title": "பிளாஸ்டிக் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு பிளாஸ்டிக் பை மட்க 1000 ஆண்டுகள் ஆகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பிளாஸ்டிக்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு பிளாஸ்டிக் ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #plastic #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 42,
+    "topic": "paper",
+    "title": "காகிதம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு மரத்திலிருந்து 8500 காகிதங்கள் உருவாகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "காகிதம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு மரத்திலிருந",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #paper #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 43,
+    "topic": "internet",
+    "title": "இணையம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒவ்வொரு நொடியும் 6000 ட்வீட்கள் அனுப்பப்படுகின்றன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "இணையம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒவ்வொரு நொடியும",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #internet #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 44,
+    "topic": "mobile",
+    "title": "மொபைல் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நம் மொபைலில் அப்போலோ விண்கலத்தை விட அதிக சக்தி உள்ளது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மொபைல்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நம் மொபைலில் அப",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #mobile #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 45,
+    "topic": "music",
+    "title": "இசை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? இசை கேட்கும்போது மூளை டோபமின் சுரக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "இசை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "இசை கேட்கும்போத",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #music #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 46,
+    "topic": "laugh",
+    "title": "சிரிப்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சிரிக்கும்போது 400 தசைகள் வேலை செய்கின்றன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சிரிப்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "சிரிக்கும்போது ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #laugh #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 47,
+    "topic": "tears",
+    "title": "கண்ணீர் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மகிழ்ச்சி கண்ணீர் வலது கண்ணிலிருந்தும், சோகம் இடது கண்ணிலிருந்தும் வரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கண்ணீர்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மகிழ்ச்சி கண்ணீ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tears #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 48,
+    "topic": "dream",
+    "title": "கனவு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நாம் கனவில் காணும் முகங்கள் நாம் பார்த்தவர்களின் முகங்கள் மட்டுமே! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கனவு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நாம் கனவில் காண",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #dream #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 49,
+    "topic": "star",
+    "title": "நட்சத்திரம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நம் வானில் 5000 நட்சத்திரங்களை கண்ணால் காண முடியும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நட்சத்திரம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நம் வானில் 5000",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #star #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 50,
+    "topic": "volcano",
+    "title": "எரிமலை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? எரிமலை பாறை 1200 டிகிரி வெப்பத்தில் பாயும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "எரிமலை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "எரிமலை பாறை 120",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #volcano #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 51,
+    "topic": "river",
+    "title": "ஆறு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? அமேசான் நதி ஒரு நாளில் 55 மில்லியன் கன மீட்டர் நீரை கடலில் கொட்டுகிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஆறு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "அமேசான் நதி ஒரு",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #river #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 52,
+    "topic": "soil",
+    "title": "மண் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு மண்கையில் பூமியின் மக்கள் தொகையை விட அதிக நுண்ணுயிரிகள் உள்ளன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மண்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு மண்கையில் ப",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #soil #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 53,
+    "topic": "cloud",
+    "title": "மேகம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு சாதாரண மேகத்தின் எடை 500 யானைகளுக்கு சமம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மேகம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு சாதாரண மேகத",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #cloud #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 54,
+    "topic": "rainbow",
+    "title": "வானவில் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வானவிலில் 7 நிறங்கள் என்பது தவறு, நூறுக்கும் மேற்பட்ட நிறங்கள் உள்ளன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வானவில்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "வானவிலில் 7 நிற",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #rainbow #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 55,
+    "topic": "salt_sea",
+    "title": "கடல் உப்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கடலின் உப்பை நிலத்தில் பரப்பினால் 500 அடி உயரம் இருக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கடல் உப்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கடலின் உப்பை நி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #salt_sea #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 56,
+    "topic": "gravity",
+    "title": "ஈர்ப்பு விசை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஈர்ப்பு விசை இல்லாவிட்டால் நாம் விண்வெளியில் மிதப்போம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஈர்ப்பு விசை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஈர்ப்பு விசை இல",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #gravity #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 57,
+    "topic": "speed_light",
+    "title": "ஒளியின் வேகம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒளி ஒரு விநாடியில் 7 முறை பூமியை சுற்றும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஒளியின் வேகம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒளி ஒரு விநாடிய",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #speed_light #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 58,
+    "topic": "dna",
+    "title": "டி என் ஏ பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உங்கள் டி.என்.ஏ.வை நீட்டினால் 16 கோடி கிலோமீட்டர் நீளமாகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "டி என் ஏ",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "உங்கள் டி.என்.ஏ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #dna #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 59,
+    "topic": "breath",
+    "title": "மூச்சு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நாம் ஒரு நாளில் 23000 முறை மூச்சு விடுகிறோம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மூச்சு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நாம் ஒரு நாளில்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #breath #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 60,
+    "topic": "step",
+    "title": "நடைபயிற்சி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? நடைபயிற்சி மூளையில் புதிய செல்களை உருவாக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "நடைபயிற்சி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "நடைபயிற்சி மூளை",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #step #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 61,
+    "topic": "tomato",
+    "title": "தக்காளி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? தக்காளி உண்மையில் ஒரு பழம், காய்கறி அல்ல! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தக்காளி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "தக்காளி உண்மையி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tomato #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 62,
+    "topic": "strawberry",
+    "title": "ஸ்ட்ராபெர்ரி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஸ்ட்ராபெர்ரி உண்மையில் ஒரு பெர்ரி அல்ல! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஸ்ட்ராபெர்ரி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஸ்ட்ராபெர்ரி உண",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #strawberry #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 63,
+    "topic": "avocado",
+    "title": "அவகேடோ பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? அவகேடோ பழம் ஒரு நாளில் பழுத்துவிடும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "அவகேடோ",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "அவகேடோ பழம் ஒரு",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #avocado #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 64,
+    "topic": "onion",
+    "title": "வெங்காயம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வெங்காயம் நம் கண்ணில் கண்ணீர் வரவழைக்கும் வேதிப்பொருள் உமிழும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வெங்காயம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "வெங்காயம் நம் க",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #onion #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 65,
+    "topic": "garlic",
+    "title": "பூண்டு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? பூண்டு 7000 ஆண்டுகளாக மனிதர்களால் பயன்படுத்தப்படுகிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பூண்டு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "பூண்டு 7000 ஆண்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #garlic #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 66,
+    "topic": "pepper",
+    "title": "மிளகு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மிளகு ஒரு காலத்தில் தங்கத்தை விட விலையுயர்ந்தது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மிளகு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மிளகு ஒரு காலத்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #pepper #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 67,
+    "topic": "turmeric",
+    "title": "மஞ்சள் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மஞ்சள் 4000 ஆண்டு பழைய மருத்துவ பொருள்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மஞ்சள்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மஞ்சள் 4000 ஆண்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #turmeric #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 68,
+    "topic": "neem",
+    "title": "வேம்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? வேப்ப இலையில் 130 வகை நோய்களுக்கு மருந்து உள்ளது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "வேம்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "வேப்ப இலையில் 1",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #neem #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 69,
+    "topic": "tulsi",
+    "title": "துளசி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? துளசி காற்றை சுத்தப்படுத்தும் 20 மரங்களுக்கு சமம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "துளசி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "துளசி காற்றை சு",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tulsi #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 70,
+    "topic": "aloe",
+    "title": "கற்றாழை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கற்றாழை விண்வெளியில் வளரும் ஒரே தாவரம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கற்றாழை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கற்றாழை விண்வெள",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #aloe #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 71,
+    "topic": "bamboo",
+    "title": "மூங்கில் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மூங்கில் ஒரு நாளில் 91 செ.மீ. வரை வளரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மூங்கில்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மூங்கில் ஒரு நா",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #bamboo #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 72,
+    "topic": "lotus",
+    "title": "தாமரை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? தாமரை சேற்றில் பிறந்தாலும் அழுக்காகாது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தாமரை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "தாமரை சேற்றில் ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #lotus #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 73,
+    "topic": "banyan",
+    "title": "ஆலமரம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஆலமரம் 5000 ஆண்டுகள் வாழும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "ஆலமரம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஆலமரம் 5000 ஆண்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #banyan #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 74,
+    "topic": "mango",
+    "title": "மாம்பழம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? இந்தியாவில் 1000 வகை மாம்பழங்கள் உள்ளன! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மாம்பழம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "இந்தியாவில் 100",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #mango #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 75,
+    "topic": "jackfruit",
+    "title": "பலா பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? பலாப்பழம் உலகின் மிகப்பெரிய மரப்பழம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பலா",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "பலாப்பழம் உலகின",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #jackfruit #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 76,
+    "topic": "pomegranate",
+    "title": "மாதுளை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மாதுளையில் 613 விதைகள் இருக்கும் என்று பலர் நம்புகின்றனர்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மாதுளை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மாதுளையில் 613 ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #pomegranate #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 77,
+    "topic": "tamarind",
+    "title": "புளி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? புளி மரம் 300 ஆண்டுகள் வாழும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "புளி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "புளி மரம் 300 ஆ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tamarind #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 78,
+    "topic": "sugarcane",
+    "title": "கரும்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கரும்பு சாறிலிருந்து சர்க்கரை, அல்கஹால், காகிதம் செய்யலாம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கரும்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கரும்பு சாறிலிர",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #sugarcane #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 79,
+    "topic": "cotton",
+    "title": "பருத்தி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு பருத்தி செடியிலிருந்து 100 சட்டை துணி கிடைக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "பருத்தி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு பருத்தி செட",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #cotton #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 80,
+    "topic": "tea",
+    "title": "தேயிலை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? தேயிலை உலகில் இரண்டாவது அதிகமாக குடிக்கப்படும் பானம்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தேயிலை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "தேயிலை உலகில் இ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #tea #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 81,
+    "topic": "coffee_plant",
+    "title": "காபி செடி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? காபி செடி ஒரு ஆண்டில் ஒரு பவுண்டு காபி மட்டுமே தரும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "காபி செடி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "காபி செடி ஒரு ஆ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #coffee_plant #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 82,
+    "topic": "wheat",
+    "title": "கோதுமை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? 10000 ஆண்டுகளாக மனிதன் கோதுமை சாப்பிடுகிறான்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கோதுமை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "10000 ஆண்டுகளாக",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #wheat #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 83,
+    "topic": "corn",
+    "title": "சோளம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? ஒரு சோள தண்டில் எப்போதும் இரட்டைப்படை வரிசைகள் இருக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சோளம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "ஒரு சோள தண்டில்",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #corn #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 84,
+    "topic": "potato",
+    "title": "உருளைக்கிழங்கு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? உருளைக்கிழங்கு 99% தண்ணீரால் ஆனது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "உருளைக்கிழங்கு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "உருளைக்கிழங்கு ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #potato #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 85,
+    "topic": "carrot",
+    "title": "கேரட் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கேரட் முதலில் ஊதா நிறத்தில் இருந்தது, ஆரஞ்சு அல்ல! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கேரட்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கேரட் முதலில் ஊ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #carrot #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 86,
+    "topic": "spinach",
+    "title": "கீரை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கீரை சாப்பிட்டால் இரும்புச்சத்து கிடைக்கும் என்பது அதிகப்படுத்தப்பட்டது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கீரை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கீரை சாப்பிட்டா",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #spinach #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 87,
+    "topic": "lemon",
+    "title": "எலுமிச்சை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? எலுமிச்சையில் ஸ்ட்ராபெர்ரியை விட அதிக வைட்டமின் சி இருக்கிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "எலுமிச்சை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "எலுமிச்சையில் ஸ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #lemon #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 88,
+    "topic": "pineapple",
+    "title": "அன்னாசி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? அன்னாசி வளர 2 ஆண்டுகள் ஆகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "அன்னாசி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "அன்னாசி வளர 2 ஆ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #pineapple #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 89,
+    "topic": "watermelon",
+    "title": "தர்பூசணி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? தர்பூசணி 92% தண்ணீர்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "தர்பூசணி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "தர்பூசணி 92% தண",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #watermelon #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 90,
+    "topic": "grapes",
+    "title": "திராட்சை பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? திராட்சையை உலர வைத்தால் திராட்சைப்பழம் ஆகும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "திராட்சை",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "திராட்சையை உலர ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #grapes #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 91,
+    "topic": "fig",
+    "title": "அத்திப்பழம் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? அத்திப்பழம் பூக்காத மரம், உள்ளே பூக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "அத்திப்பழம்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "அத்திப்பழம் பூக",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #fig #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 92,
+    "topic": "cashew",
+    "title": "முந்திரி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? முந்திரி பழத்தின் அடியில்தான் முந்திரி கொட்டை இருக்கும்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "முந்திரி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "முந்திரி பழத்தி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #cashew #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 93,
+    "topic": "chilli",
+    "title": "மிளகாய் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? மிளகாய் கண்களில் வலிக்கும் ஆனால் தோலை பாதிக்காது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "மிளகாய்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "மிளகாய் கண்களில",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #chilli #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 94,
+    "topic": "coriander",
+    "title": "கொத்தமல்லி பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கொத்தமல்லி 7000 ஆண்டுகளாக சமையலில் பயன்படுகிறது! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கொத்தமல்லி",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கொத்தமல்லி 7000",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #coriander #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 95,
+    "topic": "sesame",
+    "title": "எள் பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? எள் மிகவும் பழமையான எண்ணெய் பயிர்! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "எள்",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "எள் மிகவும் பழம",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #sesame #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 96,
+    "topic": "mustard",
+    "title": "கடுகு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? கடுகு உலகின் மிகவும் பயன்படுத்தப்படும் மசாலா! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "கடுகு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "கடுகு உலகின் மி",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #mustard #அறிவியல் #தமிழ்"
+  },
+  {
+    "id": 97,
+    "topic": "fennel",
+    "title": "சோம்பு பற்றி தெரியுமா?",
+    "narration": "உங்களுக்கு தெரியுமா? சோம்பு வயிற்று வலிக்கு இயற்கை மருந்து! இது ஒரு அற்புதமான உண்மை. இயற்கையும் அறிவியலும் நமக்கு தினமும் புதிய விஷயங்களை கற்றுத்தருகின்றன. இந்த தகவலை உங்கள் நண்பர்களுடன் பகிருங்கள்.",
+    "scenes": [
+      {
+        "caption": "உங்களுக்கு தெரியுமா?",
+        "duration": 3,
+        "caption_en": "Did You Know?"
+      },
+      {
+        "caption": "சோம்பு",
+        "duration": 3,
+        "caption_en": "Fact #1"
+      },
+      {
+        "caption": "பற்றிய உண்மை",
+        "duration": 3,
+        "caption_en": "Fact #2"
+      },
+      {
+        "caption": "சோம்பு வயிற்று ",
+        "duration": 3,
+        "caption_en": "Fact #3"
+      },
+      {
+        "caption": "அற்புதமான உண்மை!",
+        "duration": 3,
+        "caption_en": "Fact #4"
+      },
+      {
+        "caption": "இயற்கை அறிவியல்",
+        "duration": 3,
+        "caption_en": "Fact #5"
+      },
+      {
+        "caption": "தினமும் கற்கலாம்",
+        "duration": 3,
+        "caption_en": "Fact #6"
+      },
+      {
+        "caption": "நண்பர்களுக்கு",
+        "duration": 3,
+        "caption_en": "Fact #7"
+      },
+      {
+        "caption": "பகிருங்கள்!",
+        "duration": 4,
+        "caption_en": "Fact #8"
+      }
+    ],
+    "hashtags": "#தெரியுமா #fennel #அறிவியல் #தமிழ்"
+  }
+]
