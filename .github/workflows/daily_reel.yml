@@ -83,4 +83,4 @@ jobs:
         run: |
           git config user.name  "Valarchi Bot"
           git config user.email "bot@valarchi.auto"
-          git add state.jso
+          git add state.json
