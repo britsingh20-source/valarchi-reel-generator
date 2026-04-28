@@ -439,18 +439,30 @@ def main():
         caption = build_caption(topic)
         print(f"\n📝  Caption preview:\n{caption[:200]}…\n")
 
-        # Post to Instagram
-        result = post_to_instagram(public_url, caption)
-
-        # Record success in state
-        state["posted"].append({
-            "day"     : day + 1,
-            "topic_id": topic["id"],
-            "topic"   : topic["topic"],
-            "post_id" : result["post_id"],
-            "date"    : datetime.now().isoformat(),
-            "url"     : public_url,
-        })
+        # Post to Instagram (skip gracefully if credentials are missing)
+        ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
+        ig_user  = os.environ.get("INSTAGRAM_USER_ID", "")
+        if ig_token and ig_user:
+            result = post_to_instagram(public_url, caption)
+            state["posted"].append({
+                "day"     : day + 1,
+                "topic_id": topic["id"],
+                "topic"   : topic["topic"],
+                "post_id" : result["post_id"],
+                "date"    : datetime.now().isoformat(),
+                "url"     : public_url,
+            })
+        else:
+            print("\n⚠️  Instagram credentials not set — skipping post.")
+            print(f"    🎬  Video available at: {public_url}")
+            state["posted"].append({
+                "day"     : day + 1,
+                "topic_id": topic["id"],
+                "topic"   : topic["topic"],
+                "post_id" : None,
+                "date"    : datetime.now().isoformat(),
+                "url"     : public_url,
+            })
 
     # ── 3. Advance day counter ──────────────────────────────────────────
     state["day"] = day + 1
