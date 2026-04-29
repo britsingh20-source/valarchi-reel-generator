@@ -246,7 +246,7 @@ def auto_font_size(text: str, tamil_font_path: str, max_width: int, max_height: 
 def render_frame(bg_array: np.ndarray, caption: str, scene_progress: float,
                  tamil_font_path: str, latin_font_path: str,
                  topic_title: str = "", is_first: bool = False,
-                 use_english: bool = True) -> Image.Image:
+                 use_english: bool = True, cta_alpha: float = 0.0) -> Image.Image:
     """
     Render a single video frame.
     bg_array: H×W×3 numpy array (RGB)
@@ -307,6 +307,10 @@ def render_frame(bg_array: np.ndarray, caption: str, scene_progress: float,
     # ── VALARCHI brand ────────────────────────────────────────────────────
     _draw_brand(draw, latin_font_path, tamil_font_path)
 
+    # ── CTA card (last few seconds) ───────────────────────────────────────
+    if cta_alpha > 0:
+        _draw_cta(draw, latin_font_path, cta_alpha)
+
     # ── First scene: show "DID YOU KNOW?" banner ──────────────────────────
     if is_first and scene_progress < 0.8:
         _draw_know_banner_en(draw, latin_font_path, scene_progress)
@@ -345,6 +349,48 @@ def _draw_brand(draw, latin_font_path: str, tamil_font_path: str):
     line_half = min(int(bw // 2), 160)
     draw.line([(WIDTH // 2 - line_half, line_y), (WIDTH // 2 + line_half, line_y)],
               fill=CLR_BRAND, width=2)
+
+
+def _draw_cta(draw, latin_font_path: str, alpha: float):
+    """Draw a 'Follow for more' CTA card above the brand bar."""
+    if alpha <= 0:
+        return
+
+    a    = int(255 * min(1.0, alpha))
+    a160 = int(160 * min(1.0, alpha))
+    a200 = int(200 * min(1.0, alpha))
+
+    pill_w, pill_h = 820, 110
+    pill_x = (WIDTH - pill_w) // 2
+    pill_y = HEIGHT - 245
+
+    # Semi-transparent pill background
+    overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    od.rounded_rectangle(
+        [pill_x, pill_y, pill_x + pill_w, pill_y + pill_h],
+        radius=55, fill=(0, 0, 0, a160)
+    )
+    # Composite onto the draw target (draw._image is the RGBA image)
+    base = draw._image
+    base.paste(Image.alpha_composite(base, overlay))
+
+    # Line 1 — main CTA
+    line1 = "Follow for daily facts!"
+    line2 = "Like & Share if you learned something ❤️"
+
+    font1 = load_font(latin_font_path, 40)
+    font2 = load_font(latin_font_path, 32)
+
+    for text, font, y_off, col_rgb in [
+        (line1, font1, pill_y + 14,  (255, 215, 0)),
+        (line2, font2, pill_y + 62,  (255, 255, 255)),
+    ]:
+        bb = draw.textbbox((0, 0), text, font=font)
+        tw = bb[2] - bb[0]
+        x  = (WIDTH - tw) // 2
+        draw.text((x + 2, y_off + 2), text, font=font, fill=(0, 0, 0, a200))
+        draw.text((x, y_off), text, font=font, fill=col_rgb + (a,))
 
 
 def _draw_know_banner_en(draw, latin_font_path: str, progress: float):
@@ -536,14 +582,16 @@ def generate_reel(topic_data: dict, bg_video: Path = None,
                 current  = scene
                 progress = (t - scene["start"]) / max(0.01, scene["end"] - scene["start"])
                 break
-        is_first = (fi == 0 and t < timeline[0]["end"])
-        frame_scene.append((current["caption"], progress, is_first))
+        is_first  = (fi == 0 and t < timeline[0]["end"])
+        cta_start = max(0.0, total_duration - 2.5)
+        cta_alpha = max(0.0, min(1.0, (t - cta_start) / 0.6)) if t >= cta_start else 0.0
+        frame_scene.append((current["caption"], progress, is_first, cta_alpha))
 
     # Gradient fallback
     gradient_bg = make_gradient(WIDTH, HEIGHT)
 
     for fi in range(total_frames):
-        caption, progress, is_first = frame_scene[fi]
+        caption, progress, is_first, cta_alpha = frame_scene[fi]
 
         # Get background from the pre-built list
         bg_path = bg_frame_list[fi] if fi < len(bg_frame_list) else None
@@ -558,6 +606,7 @@ def generate_reel(topic_data: dict, bg_video: Path = None,
             topic_title=topic_data.get("title", ""),
             is_first=is_first,
             use_english=True,
+            cta_alpha=cta_alpha,
         )
         frame_img.save(render_dir / f"f_{fi:05d}.jpg", quality=90)
 
