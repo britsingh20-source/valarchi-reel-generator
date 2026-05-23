@@ -1,0 +1,116 @@
+# .github/workflows/daily.yml
+# ─────────────────────────────────────────────────────────────────
+# Valarchi Daily Auto-Reel
+# Runs every day at 9:30 AM IST (04:00 UTC)
+# Posts to Instagram + Facebook + YouTube automatically.
+# ─────────────────────────────────────────────────────────────────
+
+name: Daily Valarchi Reel
+
+on:
+  schedule:
+    - cron: '0 4 * * *'        # 04:00 UTC = 09:30 AM IST every day
+
+  workflow_dispatch:            # also allow manual trigger
+    inputs:
+      day:
+        description: 'Force day number (leave blank for auto)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run — generate video but skip upload & posting'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+jobs:
+  generate-and-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90          # allow up to 90 min (YouTube upload can be slow)
+
+    steps:
+      # ── 1. Checkout repo ──────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python setup ───────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. System dependencies ────────────────────────────────────
+      - name: Install system dependencies (ffmpeg + Tamil fonts)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            ffmpeg \
+            fonts-noto \
+            fonts-noto-color-emoji \
+            fonts-lohit-taml
+          fc-cache -f -v
+          echo "✅ FFmpeg version: $(ffmpeg -version | head -1)"
+          echo "✅ Tamil fonts installed"
+
+      # ── 4. Python dependencies ────────────────────────────────────
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── 5. Run the pipeline ───────────────────────────────────────
+      - name: Generate reel & post to all platforms
+        env:
+          # ── B-Roll APIs ─────────────────────────────────────────
+          PEXELS_API_KEY:             ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY:            ${{ secrets.PIXABAY_API_KEY }}
+
+          # ── Cloudflare R2 storage (secrets saved as R2_* in GitHub) ──
+          CF_ACCOUNT_ID:              ${{ secrets.R2_ACCOUNT_ID }}
+          CF_R2_ACCESS_KEY_ID:        ${{ secrets.R2_ACCESS_KEY_ID }}
+          CF_R2_SECRET_ACCESS_KEY:    ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          CF_R2_BUCKET_NAME:          ${{ secrets.R2_BUCKET_NAME }}
+          CF_R2_PUBLIC_URL:           ${{ secrets.R2_PUBLIC_URL }}
+
+          # ── Instagram (Graph API) ────────────────────────────────
+          INSTAGRAM_USER_ID:          ${{ secrets.INSTAGRAM_USER_ID }}
+          IG_ACCESS_TOKEN:            ${{ secrets.IG_ACCESS_TOKEN }}
+
+          # ── Facebook (Graph API — Page token) ───────────────────
+          FB_PAGE_ID:                 ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN:       ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+
+          # ── YouTube (OAuth2 refresh token) ───────────────────────
+          YOUTUBE_CLIENT_ID:          ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET:      ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN:      ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+
+        run: |
+          # Build optional CLI args from workflow_dispatch inputs
+          DAY_ARG=""
+          DRY_RUN_ARG=""
+
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            DAY_ARG="--day ${{ github.event.inputs.day }}"
+          fi
+
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_ARG="--dry-run"
+          fi
+
+          python daily_run.py $DAY_ARG $DRY_RUN_ARG
+
+      # ── 6. Commit updated state.json back to repo ─────────────────
+      - name: Commit state.json
+        if: always()             # commit even if posting partially failed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet \
+            || git commit -m "chore: state.json update — day $(date +%Y-%m-%d) [skip ci]"
+          git push
