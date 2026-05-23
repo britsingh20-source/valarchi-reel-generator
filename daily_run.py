@@ -2,28 +2,43 @@
 daily_run.py — Valarchi Auto-Reel Pipeline
 ==========================================
 Picks today's "Did You Know" topic from topics.json (cycles through all topics),
-fetches a relevant B-roll video from Pixabay, generates a 1080x1920 Tamil reel
-video with TTS voiceover, uploads to Cloudflare R2, and posts to Instagram.
+fetches relevant B-roll from Pexels/Pixabay, generates a 1080x1920 Tamil reel
+video with TTS voiceover, uploads to Cloudflare R2, then auto-posts to:
+
+  ✅ Instagram  (Reels via Graph API)
+  ✅ Facebook   (Page video via Graph API)
+  ✅ YouTube    (Shorts via YouTube Data API v3 resumable upload)
 
 Cloudflare R2 Free Tier:
-  ✅  10 GB storage
-  ✅  1 million uploads/month
-  ✅  ZERO egress (bandwidth) fees
+  ✅ 10 GB storage
+  ✅ 1 million uploads/month
+  ✅ ZERO egress (bandwidth) fees
 
 GitHub Secrets required:
-  PIXABAY_API_KEY         — Pixabay API key (free at pixabay.com/api/docs)
-  CF_ACCOUNT_ID           — Cloudflare Account ID
-  CF_R2_ACCESS_KEY_ID     — R2 API Token → Access Key ID
+  PIXABAY_API_KEY       — Pixabay API key (free at pixabay.com/api/docs)
+  PEXELS_API_KEY        — Pexels API key  (free at pexels.com/api)
+
+  CF_ACCOUNT_ID         — Cloudflare Account ID
+  CF_R2_ACCESS_KEY_ID   — R2 API Token → Access Key ID
   CF_R2_SECRET_ACCESS_KEY — R2 API Token → Secret Access Key
-  CF_R2_BUCKET_NAME       — R2 bucket name  (e.g. valarchi-reels)
-  CF_R2_PUBLIC_URL        — Public URL base (e.g. https://pub-xxxx.r2.dev)
-  INSTAGRAM_USER_ID       — IG Business account numeric ID
-  IG_ACCESS_TOKEN         — Long-lived Graph API access token
+  CF_R2_BUCKET_NAME     — R2 bucket name (e.g. valarchi-reels)
+  CF_R2_PUBLIC_URL      — Public URL base (e.g. https://pub-xxxx.r2.dev)
+
+  INSTAGRAM_USER_ID     — IG Business account numeric ID
+  IG_ACCESS_TOKEN       — Long-lived Graph API access token
+
+  FB_PAGE_ID            — Facebook Page numeric ID
+  FB_PAGE_ACCESS_TOKEN  — Page-level access token (pages_manage_posts permission)
+
+  YOUTUBE_CLIENT_ID     — Google OAuth2 Client ID
+  YOUTUBE_CLIENT_SECRET — Google OAuth2 Client Secret
+  YOUTUBE_REFRESH_TOKEN — Long-lived refresh token
+                          (generate once: python post_social.py --get-youtube-token)
 
 Run locally:
-    python3 daily_run.py               # auto day from state.json
-    python3 daily_run.py --day 5       # force topic #5
-    python3 daily_run.py --dry-run     # generate video, skip upload & post
+  python3 daily_run.py            # auto day from state.json
+  python3 daily_run.py --day 5   # force topic #5
+  python3 daily_run.py --dry-run # generate video, skip upload & post
 """
 
 import os, sys, json, time, argparse
@@ -32,24 +47,24 @@ from datetime import datetime
 
 import requests
 
-# ─── local module ─────────────────────────────────────────────────────────
+# ─── local modules ────────────────────────────────────────────────────────
 sys.path.insert(0, str(Path(__file__).parent))
 import generate_reel as gr
+import post_social   as ps       # ← Facebook + YouTube posting
 
 # ─── paths ─────────────────────────────────────────────────────────────────
-BASE        = Path(__file__).parent
+BASE       = Path(__file__).parent
 TOPICS_FILE = BASE / "topics.json"
 STATE_FILE  = BASE / "state.json"
 BG_DIR      = BASE / "backgrounds"
 OUTPUT_DIR  = BASE / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-
 # ─── helpers ───────────────────────────────────────────────────────────────
+
 def load_topics():
     with open(TOPICS_FILE, encoding="utf-8") as f:
         return json.load(f)
-
 
 def load_state():
     if STATE_FILE.exists():
@@ -57,19 +72,16 @@ def load_state():
             return json.load(f)
     return {"day": 0, "posted": []}
 
-
 def save_state(state: dict):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
-
 def pick_topic(topics: list, state: dict, force_day: int = None):
-    day   = force_day if force_day is not None else state["day"]
-    idx   = day % len(topics)
+    day = force_day if force_day is not None else state["day"]
+    idx = day % len(topics)
     topic = topics[idx]
-    print(f"📅  Day {day + 1}  →  Topic #{topic['id']}: {topic['topic']}")
+    print(f"📅 Day {day + 1} → Topic #{topic['id']}: {topic['topic']}")
     return topic, day
-
 
 def pick_background():
     """Return first available background video, or None."""
@@ -80,9 +92,9 @@ def pick_background():
                 return vids[0]
     return None
 
+# ─── PIXABAY / PEXELS B-ROLL FETCHER ──────────────────────────────────────
 
-# ─── PIXABAY B-ROLL FETCHER ────────────────────────────────────────────────
-# Topic → list of 5 related search queries (used one-per-clip for variety)
+# Topic → list of 5 related search queries
 TOPIC_QUERIES = {
     "rubber"      : ["rubber plantation", "rubber tree tapping", "latex rubber tree", "tropical jungle trees", "rubber production factory"],
     "honey"       : ["honeybee collecting nectar", "beehive honeycomb", "bees on flowers", "honey flowing golden", "beekeeper hive"],
@@ -104,7 +116,6 @@ TOPIC_QUERIES = {
     "sun"         : ["sunrise golden hour", "sunlight forest rays", "solar energy sun", "sunset sky orange", "sun rays nature"],
     "moon"        : ["full moon night sky", "moon craters telescope", "moonrise ocean", "lunar surface", "moon phases"],
     "diamond"     : ["diamond gemstone sparkle", "gem cutting diamond", "crystal mineral geology", "diamond jewelry close", "precious stone mining"],
-    # Additional topics
     "fire"        : ["fire flames burning", "wildfire forest", "campfire night", "fire close macro", "volcanic lava fire"],
     "earthquake"  : ["earthquake damage building", "seismic activity ground", "earthquake ruins", "tectonic plates science", "earthquake aftermath"],
     "volcano"     : ["volcano eruption lava", "lava flow volcanic", "volcanic ash eruption", "magma lava rocks", "volcano crater aerial"],
@@ -121,36 +132,26 @@ TOPIC_QUERIES = {
     "whale"       : ["whale ocean swimming", "blue whale underwater", "whale breach ocean", "humpback whale", "ocean whale migration"],
     "tree"        : ["tree forest aerial", "old giant tree", "forest canopy drone", "tree roots nature", "ancient forest trees"],
     "cloud"       : ["clouds sky timelapse", "storm clouds forming", "cumulus clouds blue sky", "cloud formation aerial", "sky clouds dramatic"],
-    "earthquake"  : ["earthquake seismic", "building collapse disaster", "tectonic fault line", "earthquake aftermath", "seismograph recording"],
     "coral"       : ["coral reef underwater", "coral bleaching ocean", "tropical fish coral", "scuba diving reef", "marine life coral"],
     "migration"   : ["bird migration flock", "wildebeest migration", "bird flock sky", "animal migration herd", "salmon river migration"],
     "bacteria"    : ["bacteria microscope science", "microbiology lab research", "petri dish bacteria culture", "microorganism science", "medical microscopy"],
 }
 
-# Default queries for topics not in the list above
-DEFAULT_QUERIES = [
-    "nature science facts",
-    "earth environment aerial",
-    "science laboratory research",
-    "technology innovation future",
-    "world discovery amazing",
-]
 
 def _get_topic_queries(topic: str) -> list:
     """Return 5 related search queries for a topic."""
     topic_lower = topic.lower().replace(" ", "_")
     if topic_lower in TOPIC_QUERIES:
         return TOPIC_QUERIES[topic_lower]
-    # Try partial match
     for key in TOPIC_QUERIES:
         if key in topic_lower or topic_lower in key:
             return TOPIC_QUERIES[key]
-    # Fallback: use topic name + generic science
     return [f"{topic} nature", f"{topic} science", f"{topic} close up",
             "nature documentary aerial", "science discovery facts"]
 
+
 def _dl_one_pexels(api_key: str, query: str, used_ids: set):
-    """Download one Pexels video for query, skipping used_ids. Returns Path or None."""
+    """Download one Pexels video. Returns Path or None."""
     import random
     try:
         resp = requests.get(
@@ -167,35 +168,32 @@ def _dl_one_pexels(api_key: str, query: str, used_ids: set):
         vid_id = video["id"]
         cached = BG_DIR / f"pexels_{vid_id}.mp4"
         if cached.exists() and cached.stat().st_size > 100_000:
-            print(f"   Cached: pexels_{vid_id}.mp4")
+            print(f"  Cached: pexels_{vid_id}.mp4")
             used_ids.add(vid_id)
             return cached
-        # Pick best quality HD file
         files = video.get("video_files", [])
-        # Prefer hd quality, mp4
-        hd = [f for f in files if f.get("quality") == "hd" and "mp4" in f.get("file_type","")]
-        sd = [f for f in files if f.get("quality") in ("sd","") and "mp4" in f.get("file_type","")]
-        pick = (hd or sd or files)
+        hd    = [f for f in files if f.get("quality") == "hd"  and "mp4" in f.get("file_type", "")]
+        sd    = [f for f in files if f.get("quality") in ("sd", "") and "mp4" in f.get("file_type", "")]
+        pick  = hd or sd or files
         if not pick:
             return None
         url = pick[0]["link"]
-        print(f"   Downloading pexels_{vid_id}.mp4 from '{query}'...")
+        print(f"  Downloading pexels_{vid_id}.mp4 from '{query}'…")
         dl = requests.get(url, timeout=90, stream=True)
         dl.raise_for_status()
         with open(cached, "wb") as f:
             for chunk in dl.iter_content(chunk_size=256 * 1024):
                 f.write(chunk)
-        size_mb = cached.stat().st_size / 1048576
-        print(f"   [OK] {size_mb:.1f} MB")
+        print(f"  [OK] {cached.stat().st_size / 1048576:.1f} MB")
         used_ids.add(vid_id)
         return cached
     except Exception as e:
-        print(f"   [WARN pexels] {e}")
+        print(f"  [WARN pexels] {e}")
         return None
 
 
 def _dl_one_pixabay(api_key: str, query: str, used_ids: set):
-    """Download one Pixabay video for query, skipping used_ids. Returns Path or None."""
+    """Download one Pixabay video. Returns Path or None."""
     import random
     try:
         resp = requests.get(
@@ -212,7 +210,7 @@ def _dl_one_pixabay(api_key: str, query: str, used_ids: set):
         vid_id = video["id"]
         cached = BG_DIR / f"pixabay_{vid_id}.mp4"
         if cached.exists() and cached.stat().st_size > 100_000:
-            print(f"   Cached: pixabay_{vid_id}.mp4")
+            print(f"  Cached: pixabay_{vid_id}.mp4")
             used_ids.add(vid_id)
             return cached
         videos = video.get("videos", {})
@@ -221,38 +219,34 @@ def _dl_one_pixabay(api_key: str, query: str, used_ids: set):
                videos.get("large",  {}).get("url"))
         if not url:
             return None
-        print(f"   Downloading pixabay_{vid_id}.mp4 from '{query}'...")
+        print(f"  Downloading pixabay_{vid_id}.mp4 from '{query}'…")
         dl = requests.get(url, timeout=60, stream=True)
         dl.raise_for_status()
         with open(cached, "wb") as f:
             for chunk in dl.iter_content(chunk_size=256 * 1024):
                 f.write(chunk)
-        print(f"   [OK] {cached.stat().st_size/1048576:.1f} MB")
+        print(f"  [OK] {cached.stat().st_size / 1048576:.1f} MB")
         used_ids.add(vid_id)
         return cached
     except Exception as e:
-        print(f"   [WARN pixabay] {e}")
+        print(f"  [WARN pixabay] {e}")
         return None
 
 
 def fetch_broll(topic: str, count: int = 5) -> list:
     """
     Fetch `count` topic-relevant B-roll videos.
-    Tries Pexels first (better relevance), falls back to Pixabay, then cached files.
+    Tries Pexels first (better relevance), falls back to Pixabay, then cached.
     """
     pexels_key  = os.environ.get("PEXELS_API_KEY", "")
     pixabay_key = os.environ.get("PIXABAY_API_KEY", "")
-
     BG_DIR.mkdir(exist_ok=True)
-
-    queries  = _get_topic_queries(topic)
+    queries = _get_topic_queries(topic)
     while len(queries) < count:
         queries.append(f"{topic} nature")
-
     results  = []
     used_ids = set()
 
-    # ── 1. Try Pexels (primary — better topic relevance) ───────────────
     if pexels_key:
         print(f"[pexels] Fetching {count} B-roll clips for '{topic}'")
         for q in queries:
@@ -263,7 +257,6 @@ def fetch_broll(topic: str, count: int = 5) -> list:
                 results.append(path)
         print(f"[pexels] Got {len(results)} clip(s)")
 
-    # ── 2. Fill remaining slots with Pixabay ───────────────────────────
     if len(results) < count and pixabay_key:
         needed = count - len(results)
         print(f"[pixabay] Fetching {needed} more clip(s) for '{topic}'")
@@ -274,21 +267,21 @@ def fetch_broll(topic: str, count: int = 5) -> list:
             if path and path not in results:
                 results.append(path)
 
-    # ── 3. Last resort: use whatever is cached in backgrounds/ ─────────
     if not results:
-        print("[broll] No API keys or all downloads failed — using cached backgrounds")
+        print("[broll] No API keys / downloads failed — using cached backgrounds")
         return list(BG_DIR.glob("*.mp4"))[:count]
 
     print(f"[broll] Ready: {len(results)} B-roll video(s)")
     return results
 
 
-# Keep old name as alias so nothing else breaks
+# Alias for backwards compatibility
 def fetch_pixabay_broll(topic: str, count: int = 5) -> list:
     return fetch_broll(topic, count)
 
 
 # ─── CLOUDFLARE R2 UPLOAD ──────────────────────────────────────────────────
+
 def upload_to_r2(video_path: Path) -> str:
     """Upload MP4 to Cloudflare R2. Returns public HTTPS URL."""
     import boto3
@@ -299,8 +292,8 @@ def upload_to_r2(video_path: Path) -> str:
     secret_key  = os.environ["CF_R2_SECRET_ACCESS_KEY"]
     bucket      = os.environ["CF_R2_BUCKET_NAME"]
     public_base = os.environ["CF_R2_PUBLIC_URL"].rstrip("/")
+    endpoint    = f"https://{account_id}.r2.cloudflarestorage.com"
 
-    endpoint = f"https://{account_id}.r2.cloudflarestorage.com"
     s3 = boto3.client(
         "s3",
         endpoint_url          = endpoint,
@@ -311,45 +304,42 @@ def upload_to_r2(video_path: Path) -> str:
 
     fname   = video_path.name
     obj_key = f"reels/{fname}"
-
-    print(f"☁️   Uploading → {bucket}/{obj_key} …")
+    print(f"☁️  Uploading → {bucket}/{obj_key} …")
     with open(video_path, "rb") as fh:
         s3.upload_fileobj(
             fh, bucket, obj_key,
             ExtraArgs={"ContentType": "video/mp4", "CacheControl": "public, max-age=86400"},
         )
-
     public_url = f"{public_base}/{obj_key}"
-    print(f"✅  R2 URL: {public_url}")
+    print(f"✅ R2 URL: {public_url}")
     return public_url
 
 
 # ─── INSTAGRAM GRAPH API ───────────────────────────────────────────────────
+
 def post_to_instagram(video_url: str, caption: str) -> dict:
     """Post a Reel via Instagram Graph API. Returns dict with post_id."""
     user_id = os.environ["INSTAGRAM_USER_ID"]
     token   = os.environ["IG_ACCESS_TOKEN"]
     base    = "https://graph.facebook.com/v19.0"
 
-    # Step 1 — create media container
-    print("📤  Creating Instagram Reel container…")
+    print("📸 Creating Instagram Reel container…")
     resp = requests.post(
         f"{base}/{user_id}/media",
         data={
-            "media_type"   : "REELS",
-            "video_url"    : video_url,
-            "caption"      : caption,
+            "media_type"  : "REELS",
+            "video_url"   : video_url,
+            "caption"     : caption,
             "share_to_feed": "true",
-            "access_token" : token,
+            "access_token": token,
         },
         timeout=60,
     )
     resp.raise_for_status()
     container_id = resp.json()["id"]
-    print(f"   Container ID: {container_id}")
+    print(f"  Container ID: {container_id}")
 
-    # Step 2 — wait for processing (up to 5 min)
-    print("⏳  Waiting for Instagram to process video…")
+    print("⏳ Waiting for Instagram to process video…")
     for attempt in range(30):
         time.sleep(10)
         sr = requests.get(
@@ -359,7 +349,7 @@ def post_to_instagram(video_url: str, caption: str) -> dict:
         )
         sr.raise_for_status()
         status = sr.json().get("status_code", "")
-        print(f"   [{attempt+1}/30] status: {status}")
+        print(f"  [{attempt+1}/30] status: {status}")
         if status == "FINISHED":
             break
         if status == "ERROR":
@@ -367,8 +357,7 @@ def post_to_instagram(video_url: str, caption: str) -> dict:
     else:
         raise TimeoutError("Instagram video processing timed out after 5 minutes.")
 
-    # Step 3 — publish
-    print("🚀  Publishing Reel…")
+    print("🚀 Publishing Instagram Reel…")
     pub = requests.post(
         f"{base}/{user_id}/media_publish",
         data={"creation_id": container_id, "access_token": token},
@@ -376,12 +365,13 @@ def post_to_instagram(video_url: str, caption: str) -> dict:
     )
     pub.raise_for_status()
     post_id = pub.json()["id"]
-    print(f"✅  Published! Post ID: {post_id}")
+    print(f"  ✅ Instagram published! Post ID: {post_id}")
     return {"post_id": post_id, "container_id": container_id}
 
 
-# ─── BUILD INSTAGRAM CAPTION ───────────────────────────────────────────────
-def build_caption(topic: dict) -> str:
+# ─── CAPTION BUILDERS ──────────────────────────────────────────────────────
+
+def build_instagram_caption(topic: dict) -> str:
     title    = topic.get("title", topic["topic"])
     hashtags = topic.get("hashtags", "#தெரியுமா #தமிழ் #வளர்ச்சி")
     return (
@@ -393,81 +383,143 @@ def build_caption(topic: dict) -> str:
         f"{hashtags} #valarchi #tamilfacts #தமிழ் #reels #didyouknow"
     )
 
+# Keep old name as alias
+def build_caption(topic: dict) -> str:
+    return build_instagram_caption(topic)
+
 
 # ─── MAIN ──────────────────────────────────────────────────────────────────
+
 def main():
     parser = argparse.ArgumentParser(description="Valarchi Daily Auto-Reel")
     parser.add_argument("--day",     type=int, default=None, help="Force day number")
-    parser.add_argument("--dry-run", action="store_true",   help="Generate only, skip upload & post")
+    parser.add_argument("--dry-run", action="store_true",    help="Generate only, skip upload & post")
     args = parser.parse_args()
 
     print(f"\n{'='*55}")
-    print(f"  VALARCHI DAILY AUTO-REEL  —  {datetime.now().strftime('%d %b %Y %H:%M')}")
+    print(f"  VALARCHI DAILY AUTO-REEL — {datetime.now().strftime('%d %b %Y %H:%M')}")
     print(f"{'='*55}\n")
 
-    topics         = load_topics()
-    state          = load_state()
-    topic, day     = pick_topic(topics, state, force_day=args.day)
+    topics = load_topics()
+    state  = load_state()
+    topic, day = pick_topic(topics, state, force_day=args.day)
 
-    # Fetch 5 different B-roll clips — Pexels first, Pixabay fallback
+    # Fetch 5 B-roll clips — Pexels first, Pixabay fallback
     bg_videos = fetch_broll(topic["topic"], count=5)
-
     if bg_videos:
-        print(f"[bg] {len(bg_videos)} B-roll videos ready")
+        print(f"[bg] {len(bg_videos)} B-roll video(s) ready")
     else:
         print("[bg] No background videos — using gradient fallback")
 
     # ── 1. Generate video ───────────────────────────────────────────────
     video_path = gr.generate_reel(topic, bg_videos=bg_videos)
-
     if not video_path.exists():
-        print("❌  Video generation failed!")
+        print("❌ Video generation failed!")
         sys.exit(1)
 
     size_mb = video_path.stat().st_size / 1_048_576
-    print(f"\n📦  Video size: {size_mb:.1f} MB")
+    print(f"\n📦 Video size: {size_mb:.1f} MB  →  {video_path}")
 
     # ── 2. Upload + post (unless dry-run) ──────────────────────────────
     if args.dry_run:
-        print("\n🧪  DRY RUN — skipping upload and Instagram post.")
-        print(f"    Video at: {video_path}")
+        print("\n🧪 DRY RUN — skipping upload and all social posts.")
+        print(f"   Video at: {video_path}")
+        state["day"] = day + 1
+        save_state(state)
+        return
+
+    # Upload to Cloudflare R2 once — all platforms share this URL
+    public_url = upload_to_r2(video_path)
+
+    # Build captions (each platform gets its own flavour)
+    ig_caption = build_instagram_caption(topic)
+    fb_caption = ps.build_facebook_caption(topic)
+    yt_title   = ps.build_youtube_title(topic)
+    yt_desc    = ps.build_youtube_description(topic)
+    yt_tags    = [
+        topic["topic"], "didyouknow", "tamilfacts", "valarchi",
+        "shorts", "ytshorts", "தமிழ்", "amazingfacts", "facts",
+    ]
+
+    # Tracking record for this run
+    record = {
+        "day"      : day + 1,
+        "topic_id" : topic["id"],
+        "topic"    : topic["topic"],
+        "date"     : datetime.now().isoformat(),
+        "r2_url"   : public_url,
+        "instagram": None,
+        "facebook" : None,
+        "youtube"  : None,
+    }
+
+    # ── 2a. Instagram ───────────────────────────────────────────────────
+    ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
+    ig_user  = os.environ.get("INSTAGRAM_USER_ID", "")
+    if ig_token and ig_user:
+        print("\n── INSTAGRAM ──────────────────────────────────────────")
+        try:
+            ig_result = post_to_instagram(public_url, ig_caption)
+            record["instagram"] = ig_result.get("post_id")
+        except Exception as e:
+            print(f"  ⚠️  Instagram post failed: {e}")
     else:
-        # Upload to R2
-        public_url = upload_to_r2(video_path)
+        print("\n⚠️  Instagram credentials not set — skipping.")
 
-        # Build caption
-        caption = build_caption(topic)
-        print(f"\n📝  Caption preview:\n{caption[:200]}…\n")
+    # ── 2b. Facebook ────────────────────────────────────────────────────
+    fb_token = os.environ.get("FB_PAGE_ACCESS_TOKEN", "")
+    fb_page  = os.environ.get("FB_PAGE_ID", "")
+    if fb_token and fb_page:
+        print("\n── FACEBOOK ───────────────────────────────────────────")
+        try:
+            fb_result = ps.post_to_facebook(public_url, fb_caption)
+            record["facebook"] = fb_result.get("video_id")
+        except Exception as e:
+            print(f"  ⚠️  Facebook post failed: {e}")
+    else:
+        print("\n⚠️  Facebook credentials not set (FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN) — skipping.")
+        print("   → Add these secrets in GitHub → Settings → Secrets and variables → Actions")
 
-        # Post to Instagram (skip gracefully if credentials are missing)
-        ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
-        ig_user  = os.environ.get("INSTAGRAM_USER_ID", "")
-        if ig_token and ig_user:
-            result = post_to_instagram(public_url, caption)
-            state["posted"].append({
-                "day"     : day + 1,
-                "topic_id": topic["id"],
-                "topic"   : topic["topic"],
-                "post_id" : result["post_id"],
-                "date"    : datetime.now().isoformat(),
-                "url"     : public_url,
-            })
-        else:
-            print("\n⚠️  Instagram credentials not set — skipping post.")
-            print(f"    🎬  Video available at: {public_url}")
-            state["posted"].append({
-                "day"     : day + 1,
-                "topic_id": topic["id"],
-                "topic"   : topic["topic"],
-                "post_id" : None,
-                "date"    : datetime.now().isoformat(),
-                "url"     : public_url,
-            })
+    # ── 2c. YouTube ─────────────────────────────────────────────────────
+    yt_client_id = os.environ.get("YOUTUBE_CLIENT_ID", "")
+    if yt_client_id:
+        print("\n── YOUTUBE ────────────────────────────────────────────")
+        try:
+            yt_result = ps.post_to_youtube(
+                video_path  = video_path,
+                title       = yt_title,
+                description = yt_desc,
+                tags        = yt_tags,
+                category_id = "27",      # Education
+                privacy     = "public",
+            )
+            record["youtube"] = {
+                "video_id"   : yt_result.get("video_id"),
+                "youtube_url": yt_result.get("youtube_url"),
+            }
+        except Exception as e:
+            print(f"  ⚠️  YouTube upload failed: {e}")
+    else:
+        print("\n⚠️  YouTube credentials not set (YOUTUBE_CLIENT_ID etc.) — skipping.")
+        print("   → Run: python post_social.py --get-youtube-token")
+        print("   → Then add YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN to GitHub Secrets")
 
-    # ── 3. Advance day counter ──────────────────────────────────────────
+    # ── 3. Summary ──────────────────────────────────────────────────────
+    print(f"\n{'='*55}")
+    print("  POSTING SUMMARY")
+    print(f"{'='*55}")
+    print(f"  R2 URL    : {public_url}")
+    print(f"  Instagram : {record['instagram'] or 'skipped/failed'}")
+    print(f"  Facebook  : {record['facebook']  or 'skipped/failed'}")
+    yt = record.get("youtube") or {}
+    print(f"  YouTube   : {yt.get('youtube_url') or 'skipped/failed'}")
+    print(f"{'='*55}\n")
+
+    # ── 4. Advance day counter ──────────────────────────────────────────
+    state.setdefault("posted", []).append(record)
     state["day"] = day + 1
     save_state(state)
-    print(f"\n✅  Done! State saved. Next day: {state['day'] + 1}")
+    print(f"✅ Done! State saved. Next day: {state['day'] + 1}")
 
 
 if __name__ == "__main__":
