@@ -9,7 +9,7 @@ name: Daily Valarchi Reel
 
 on:
   schedule:
-    - cron: '0 4 * * *'        # 04:00 UTC = 09:30 AM IST every day
+    - cron: '30 13 * * *'      # 13:30 UTC = 07:00 PM IST every day
 
   workflow_dispatch:            # also allow manual trigger
     inputs:
