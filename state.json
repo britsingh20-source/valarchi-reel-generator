@@ -1,4 +1,22 @@
 {
-  "day": 1,
-  "posted": []
+  "day": 2,
+  "posted": [
+    {
+      "day": 1,
+      "topic_id": 1,
+      "topic": "rubber",
+      "date": "2026-05-23",
+      "note": "manually run — posted to IG/FB/YT successfully"
+    },
+    {
+      "day": 2,
+      "topic_id": 2,
+      "topic": "honey",
+      "date": "2026-05-24",
+      "instagram": "18426568123125374",
+      "facebook": "983121401091870",
+      "youtube": "https://youtu.be/rgcIqWeRxvg",
+      "note": "scheduled run — all 3 platforms posted OK"
+    }
+  ]
 }
