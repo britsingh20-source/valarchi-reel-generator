@@ -95,10 +95,11 @@ def build_facebook_caption(topic: dict) -> str:
     return (
         f"உங்களுக்கு தெரியுமா? 🤔\n\n"
         f"✨ {title}\n\n"
+        f"💬 உங்கள் கருத்தை comment-ல் சொல்லுங்க!\n"
         f"━━━━━━━━━━━━━━━━━\n"
         f"🔔 Like our page for daily Tamil facts!\n"
         f"❤️  Share this with someone curious!\n\n"
-        f"{hashtags} #valarchi #tamilfacts #தமிழ் #didyouknow #reels"
+        f"{hashtags} #doyouknow2026 #tamilfacts #தமிழ் #didyouknow #reels"
     )
 
 
@@ -167,7 +168,7 @@ def post_to_youtube(
         "snippet": {
             "title"       : title[:100],
             "description" : description,
-            "tags"        : tags or ["didyouknow", "tamil", "valarchi", "facts", "shorts"],
+            "tags"        : tags or ["didyouknow", "tamil", "doyouknow2026", "facts", "shorts"],
             "categoryId"  : category_id,
             "defaultLanguage": "ta",
         },
@@ -258,9 +259,9 @@ def build_youtube_description(topic: dict) -> str:
         f"👍 LIKE if you learned something new today!\n"
         f"💬 COMMENT — share this fact with a friend!\n"
         f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
-        f"Follow us on Instagram & Facebook @valarchi for more!\n\n"
+        f"Follow us on Instagram & Facebook @doyou_know2026 for more!\n\n"
         f"{hashtags} "
-        f"#valarchi #tamilfacts #didyouknow #shorts #ytshorts "
+        f"#doyouknow2026 #tamilfacts #didyouknow #shorts #ytshorts "
         f"#amazingfacts #தமிழ் #factsvideo #knowledgeshorts"
     )
 
