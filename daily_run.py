@@ -377,10 +377,11 @@ def build_instagram_caption(topic: dict) -> str:
     return (
         f"உங்களுக்கு தெரியுமா? 🤔\n\n"
         f"✨ {title}\n\n"
+        f"💬 உங்கள் கருத்தை comment-ல் சொல்லுங்க!\n"
         f"━━━━━━━━━━━━━━━━━\n"
-        f"🔔 Follow @valarchi for daily Tamil facts\n"
-        f"❤️  Share this with someone curious!\n\n"
-        f"{hashtags} #valarchi #tamilfacts #தமிழ் #reels #didyouknow"
+        f"🔔 Follow @doyou_know2026 — தினமும் புதுசு!\n"
+        f"🔁 Share this with someone curious!\n\n"
+        f"{hashtags} #doyouknow2026 #tamilfacts #தமிழ் #reels #didyouknow #shorts"
     )
 
 # Keep old name as alias
@@ -437,7 +438,7 @@ def main():
     yt_title   = ps.build_youtube_title(topic)
     yt_desc    = ps.build_youtube_description(topic)
     yt_tags    = [
-        topic["topic"], "didyouknow", "tamilfacts", "valarchi",
+        topic["topic"], "didyouknow", "tamilfacts", "doyouknow2026",
         "shorts", "ytshorts", "தமிழ்", "amazingfacts", "facts",
     ]
 
