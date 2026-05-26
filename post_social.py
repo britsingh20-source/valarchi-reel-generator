@@ -241,10 +241,34 @@ def post_to_youtube(
 
 
 def build_youtube_title(topic: dict) -> str:
-    """Build a click-worthy YouTube Shorts title."""
-    title = topic.get("title", topic["topic"])
-    # Keep it punchy — YouTube Shorts benefit from short titles
-    return f"Did You Know? {title} 🤔 #Shorts"[:100]
+    """
+    Build a curiosity-driven YouTube Shorts title.
+
+    Rotates through 7 hook patterns based on topic ID so no two
+    consecutive videos share the same title format — this signals
+    variety to the algorithm and tests which hooks get better CTR.
+
+    Patterns alternate between:
+      • Tamil-first (targets native Tamil speakers in Shorts feed)
+      • English-first (boosts discoverability via YouTube search)
+      • Shock/curiosity hooks (higher CTR in Shorts)
+    """
+    title    = topic.get("title", topic["topic"])
+    topic_id = topic.get("id", 1)
+
+    # 7 rotating hooks — (topic_id - 1) % 7 picks one
+    HOOKS = [
+        f"தெரியுமா? {title} 🤯 #Shorts",                          # 1 — Tamil curiosity
+        f"Did You Know? {title} 😱 #Shorts",                       # 2 — English shock
+        f"{title} — 99% பேருக்கு தெரியாது! 🤫 #Shorts",           # 3 — exclusivity hook
+        f"Did You Know? {title} — Watch Till End! ⏩ #Shorts",      # 4 — retention hook
+        f"இது தெரியுமா? {title} 😲 #Shorts",                      # 5 — Tamil question
+        f"Did You Know? {title} 🧠 #Shorts",                       # 6 — knowledge hook
+        f"அதிர்ச்சி உண்மை! {title} 🌟 #Shorts",                   # 7 — Tamil shock
+    ]
+
+    hook = HOOKS[(topic_id - 1) % len(HOOKS)]
+    return hook[:100]
 
 
 def build_youtube_description(topic: dict) -> str:
@@ -285,37 +309,4 @@ def print_youtube_token_instructions():
         f"&prompt=consent"
     )
     print("\n" + "="*60)
-    print("  YouTube One-Time Token Setup")
-    print("="*60)
-    print(f"\n1. Open this URL in your browser:\n\n   {auth_url}\n")
-    print("2. Sign in with the YouTube channel account")
-    print("3. Copy the authorization code shown")
-    code = input("\n4. Paste the authorization code here: ").strip()
-
-    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET", "YOUR_CLIENT_SECRET")
-    resp = requests.post(
-        "https://oauth2.googleapis.com/token",
-        data={
-            "code"         : code,
-            "client_id"    : client_id,
-            "client_secret": client_secret,
-            "redirect_uri" : "urn:ietf:wg:oauth:2.0:oob",
-            "grant_type"   : "authorization_code",
-        },
-        timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    print(f"\n✅ Refresh Token (save to GitHub Secrets as YOUTUBE_REFRESH_TOKEN):")
-    print(f"\n   {data.get('refresh_token', '[error — check response]')}\n")
-    print("="*60)
-    return data
-
-
-if __name__ == "__main__":
-    import sys
-    if "--get-youtube-token" in sys.argv:
-        print_youtube_token_instructions()
-    else:
-        print("Usage: python post_social.py --get-youtube-token")
-        print("       (run this once locally to get your YouTube refresh token)")
+    print("  YouTube One-Time Token S
