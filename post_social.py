@@ -309,4 +309,37 @@ def print_youtube_token_instructions():
         f"&prompt=consent"
     )
     print("\n" + "="*60)
-    print("  YouTube One-Time Token S
+    print("  YouTube One-Time Token Setup")
+      print("="*60)
+    print(f"\n1. Open this URL in your browser:\n\n   {auth_url}\n")
+    print("2. Sign in with the YouTube channel account")
+    print("3. Copy the authorization code shown")
+    code = input("\n4. Paste the authorization code here: ").strip()
+
+    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET", "YOUR_CLIENT_SECRET")
+    resp = requests.post(
+              "https://oauth2.googleapis.com/token",
+              data={
+                            "code"         : code,
+                            "client_id"    : client_id,
+                            "client_secret": client_secret,
+                            "redirect_uri" : "urn:ietf:wg:oauth:2.0:oob",
+                            "grant_type"   : "authorization_code",
+              },
+              timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    print(f"\n✅ Refresh Token (save to GitHub Secrets as YOUTUBE_REFRESH_TOKEN):")
+    print(f"\n   {data.get('refresh_token', '[error — check response]')}\n")
+    print("="*60)
+    return data
+
+
+if __name__ == "__main__":
+      import sys
+      if "--get-youtube-token" in sys.argv:
+              print_youtube_token_instructions()
+else:
+        print("Usage: python post_social.py --get-youtube-token")
+          print("       (run this once locally to get your YouTube refresh token)")
